@@ -18,7 +18,7 @@ test("length", function() {
 
 test("splice", function() {
     var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-    var workingWeek = daysOfWeek.splice(5, 7);
+    var workingWeek = daysOfWeek.splice(0,5);
     var weekend = daysOfWeek;
 
     deepEqual(workingWeek, ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'what is the value of workingWeek?');
