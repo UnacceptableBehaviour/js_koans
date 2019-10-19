@@ -1,6 +1,25 @@
 
 module("About Truthyness (topics/about_truthyness.js)");
 
+// Not truthy! false, 0, 0n, "", null, undefined, and NaN
+// https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+
+// ALL true
+//if (true)
+//if ({})
+//if ([])
+//if (42)
+//if ("0")
+//if ("false")
+//if (new Date())
+//if (-42)
+//if (12n)
+//if (3.14)
+//if (-3.14)
+//if (Infinity)
+//if (-Infinity)
+
+
 test("truthyness of positive numbers", function() {
     var oneIsTruthy = 1 ? true : false;
     equal(true, oneIsTruthy, 'is one truthy?');
