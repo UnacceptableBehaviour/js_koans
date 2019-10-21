@@ -8,4 +8,26 @@ QUnit Assertions & other: https://api.qunitjs.com/
 Install: npm install -g qunit (for CLI access)
 
 Open jskoans.htm, proceed to fix test in file indicated by the failed test! 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
