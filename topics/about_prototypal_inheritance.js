@@ -54,7 +54,11 @@ function Bat(name, wingspan) {
 }	
 
 // configure inheritance
-extend(Bat, Mammal);
+extend(Bat, Mammal);        // isn't that what ln 51 Mammal.call(this, name); is for?
+                            // comment out leads to: TypeError: lenny.sayHi is not a function               
+// DIFFERENT from keyword: extends
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
+
 
 test("Inheritance", function() {
     var lenny = new Bat("Lenny", "1.5m");
