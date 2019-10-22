@@ -51,7 +51,7 @@ function Bat(name, wingspan) {
     //Mammal(this, name);               // NO work!?
     Mammal.call(this, name);            // create Mammal() using this -> Bat
     this.wingspan = wingspan;           // add wingspan property
-}	
+}	// TODO more on .call()
 
 // configure inheritance
 extend(Bat, Mammal);        // isn't that what ln 51 Mammal.call(this, name); is for?
