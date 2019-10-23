@@ -11,9 +11,17 @@ Open jskoans.htm, proceed to fix test in file indicated by the failed test!
 
 
 
+### How to indlude JS / Modules  
+https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file  
+
+### Various include solutions  
+https://hype.codes/how-include-js-file-another-js-file  
 
 
 
+## More Refs  
+### Compatibility reference  
+https://caniuse.com/#feat=es6-module  
 
 
 
