@@ -17,7 +17,7 @@ test("exec", function() {
     // equalTo is not QUnit - its a monkey patch
     // Array.prototype.equalTo = function(compareTo) { ... }  << Ln:5 koans.js
 
-    // FIALS - from console
+    // FAILS - from console
     //ok(results.equalTo(["6 turned out to be 9", "6", "9", index: 8, input: "what if 6 turned out to be 9?", groups: undefined]), 'what is the value of results?');
 
     // lets dissect:
