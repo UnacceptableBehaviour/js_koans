@@ -9,6 +9,13 @@ Install: npm install -g qunit (for CLI access)
 
 Open jskoans.htm, proceed to fix test in file indicated by the failed test! 
 
+## Regexs
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp  
+### Flags  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Parameters  
+
+
+
 ## ES Modules - Follow up in rep: js_intro_msgQ
 TODO - EX
 https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/
