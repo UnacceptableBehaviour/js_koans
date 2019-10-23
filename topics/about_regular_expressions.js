@@ -4,7 +4,8 @@ module("About Regular Expressions (topics/about_regular_expressions.js)");
 test("exec", function() {
     var numberFinder = /(\d).*(\d)/;
     var results = numberFinder.exec("what if 6 turned out to be 9?");
-    ok(results.equalTo([__, __, __]), 'what is the value of results?');		
+    ok(results.equalTo(["6 turned out to be 9", "6", "9", index: 8, input: "what if 6 turned out to be 9?", groups: undefined]), 'what is the value of results?');
+    //ok(results.equalTo(['6 turned out to be 9', index: 1, input: "what if 6 turned out to be 9?"]), 'what is the value of results?');
 });
 
 test("test", function() {

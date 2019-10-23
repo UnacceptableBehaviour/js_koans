@@ -9,9 +9,17 @@ Install: npm install -g qunit (for CLI access)
 
 Open jskoans.htm, proceed to fix test in file indicated by the failed test! 
 
+## ES Modules - Follow up in rep: js_intro_msgQ
+TODO - EX
+https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/
+
+TODO Read
+https://medium.com/backticks-tildes/introduction-to-es6-modules-49956f580da
 
 
-### How to indlude JS / Modules  
+
+
+### How to include JS / Modules  
 https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file  
 
 ### Various include solutions  
